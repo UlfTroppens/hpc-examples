@@ -3,4 +3,4 @@ Small examples related to HPC
 
 | Title | Description |
 |-------|-------------|
-| [mpi-simple] |  Getting started with MPI |
+| [mpi-simple](mpi-simple) |  Getting started with MPI |
