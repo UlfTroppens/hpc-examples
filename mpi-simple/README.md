@@ -7,3 +7,4 @@ Gettings started with MPI
 | [mpiexec](doc/mpiexec.ipynb) | mpiexec - Run an MPI program |
 | [mpi-with-shell-script](doc/mpi-with-shell-script.ipynb) | Getting started with MPI using a shell |
 | [mpi-with-c](doc/mpi-with-c.ipynb) | Getting started with MPI using C |
+| [mpi-send-receive](doc/mpi-send-receive.ipynb) | Sending and receiving MPI messages |
