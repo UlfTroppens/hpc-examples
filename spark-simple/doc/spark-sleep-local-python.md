@@ -1,4 +1,4 @@
-# Getting started with Spark running a simple Phyton script
+# Getting started with Spark running a simple Python script
 
 Spark applications can run in local mode or on a Spark cluster. In this post I
 explain and analyze how to run a small Python program in Spark local mode. See
@@ -140,9 +140,16 @@ python  2751  ulf    4u  IPv4  85133      0t0  TCP localhost:52758 (LISTEN)
 
 Spark comes with an in-built Web UI which is available on port 4040. My HPC Lab
 is running on VirtualBox. Therefore I have configured port forwarding. This is
-why you see a URL with localhost in screenshot.
+why the screenshots show URLs with localhost.
 
-![Spark User Interface](images/spark-ui-sleep-local.png)
+![Spark User Interface](images/spark-ui-executors-sleep-local.png)
+![Spark User Interface](images/spark-ui-environment-sleep-local.png)
+
+The other tabs just show blank pages. Initially I was disappointed about this,
+but in a hindsight I understand that this is because the Python scripts is
+just sleeping, but not doing any meaningful with Spark except starting and
+stopping a local Spark instance. In the next blog post I will use a Python
+script where we will see something meaningful in the other taps.
 
 ---
 
